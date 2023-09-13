@@ -1,0 +1,27 @@
+1 SALA -> (Numero, Capacidad)
+1, 141
+2, 122
+3, 163
+4, 64
+
+
+2 FUNCION -> (Codigo, titulo, duracion, precioButaca, capacidadDisponible, Sala)
+"1", "Titulo 1", 101, 1, 101, sala1
+"2", "Titulo 2", 102, 2, 102, sala1
+"3", "Titulo 3", 103, 3, 103, sala1
+"4", "Titulo 4", 104, 4, 104, sala1
+"5", "Titulo 5", 105, 5, 105, sala1
+
+Funcion funcion2 = new Funcion("2", "Titulo 2", 102, 2, 102, sala1);
+Funcion funcion3 = new Funcion("3", "Titulo 3", 103, 3, 103, sala1);
+Funcion funcion4 = new Funcion("4", "Titulo 4", 104, 4, 104, sala1);
+Funcion funcion5 = new Funcion("5", "Titulo 5", 105, 5, 105, sala1);
+
+3 ENTRADA -> (Funcion, Cantidad, precioTotal)
+1, funcion1, Calculado
+2, funcion2, Calculado
+1, funcion3, Calculado
+4, funcion4, Calculado
+2, funcion5, Calculado
+
+4 CLIENTE
